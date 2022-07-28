@@ -1,0 +1,353 @@
+body {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+    color: #2f2c2c;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+}
+
+.s-header {
+    color: #d89726;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, auto);
+    justify-items: stretch;
+    align-items: stretch;
+    grid-gap: 2rem;
+}
+
+i {
+    color: #d89726;
+}
+
+.img {
+    background: url("alwand.jpg");
+    background-size: cover;
+    width: 350px;
+    height: 450px;
+    margin-top: 0px;
+    border-radius: 50px 0px 0px 0px;
+}
+
+#pamo {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+#work-ex {
+    list-style: circle;
+    padding: 20px 40px;
+}
+
+#work-ex li {
+    margin-bottom: 10px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+    color: #2f2c2c;
+}
+
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    box-shadow: 1px 1px 15px;
+    background-color: #fff;
+    border-radius: 50px 0px 0px 0px;
+    width: 350px;
+}
+
+.box-2 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.workclass {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.box-3 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    box-shadow: 1px 1px 15px;
+    background-color: #fff;
+    border-radius: 0px 0px 00px 0px;
+}
+
+.box-4 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    box-shadow: 1px 1px 15px;
+    background-color: #d89726;
+    border-radius: 0px 0px 50px 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+    color: #898888;
+}
+
+#mar-b li {
+    margin-bottom: 20px;
+}
+
+.ul ul li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #d89726;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+svg {
+    width: 40px;
+    height: 20px;
+}
+
+path {
+    fill: #d89726;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#skil {
+    width: 95%;
+    height: 1rem;
+    background-color: #362f0d;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.html {
+    width: 80%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.text {
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(67, 66, 66);
+}
+
+.css {
+    width: 75%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.js {
+    width: 80%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.react {
+    width: 85%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.matlab {
+    width: 85%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.kurdish {
+    width: 100%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.arabic {
+    width: 85%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.english {
+    width: 80%;
+    height: 1rem;
+    background-color: #d89726;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.box-2 svg {
+    width: 80px;
+    height: 70px;
+    margin: 10px 20px;
+}
+
+.work h1 {
+    font-weight: lighter;
+}
+
+li {
+    color: #898888;
+}
+
+h4 {
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+.date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    color: #d89726;
+}
+
+.date svg {
+    width: 30px;
+    height: 30px;
+}
+
+.para {
+    color: #000;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.box-3 svg {
+    width: 80px;
+    height: 70px;
+    margin: 10px 20px;
+}
+
+.date-box-3 svg {
+    width: 30px;
+    height: 30px;
+}
+
+.date-box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    color: #ffce45;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 1rem;
+    fill: #f1f1f1;
+    color: #f1f1f1;
+}
+
+.box-4 p {
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #work-ex-h1 h1 {
+        font-size: 16px;
+    }
+    .wrapper {
+        width: 90%;
+        height: 100%;
+    }
+    .container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        border-radius: 50px;
+    }
+    .img {
+        background: url("alwand.jpg");
+        background-size: cover;
+        width: 300px;
+        height: 400px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: x-large;
+        overflow: hidden;
+    }
+    .box-1 {
+        border-radius: 0px;
+    }
+    .box-2 {
+        border-radius: 0px;
+    }
+    .box-3 {
+        border-radius: 0px;
+    }
+    .box-4 {
+        border-radius: 0px;
+    }
+}
